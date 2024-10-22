@@ -1,0 +1,103 @@
+@charset "UTF-8";
+body {
+    background-color: #E7D8D8;
+    font-family: 'Hind Siliguri', sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+paragraph {
+	padding: 15px;
+	font-size: 1em
+}
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+	color: #C60000;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 20px 0;
+	
+}
+
+h3 {
+    font-size: 1.75em;
+    margin: 15px 0;
+	color: #C60000;
+}
+
+h4 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+h5 {
+    font-size: 1.25em;
+    margin: 5px 0;
+}
+
+p {
+    margin: 15px 0;
+    padding: 5px;
+}
+
+.center {
+    text-align: center;
+}
+
+.float-right {
+    float: right;
+    margin-left: 10px;
+}
+
+.button {
+    text-align: center;
+    margin: 20px 0;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1em;
+	background-color: #C60000;}
+
+a:hover {color:burlywood;}
+
+
+
+img {display: block; margin-left:auto; margin-right:auto;width:50%;}
+
+.button a {
+	background-color: #FCE5E6;
+	color: #6F00FF;
+	padding-right:20px;
+	padding-left:20px;
+	padding-bottom:10px;
+	padding-top:10px;
+	border-radius:10px;
+}
+.button a:hover{background-color: #F5ED14
+}
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.rightalign{ float: right; 
+	padding-right: 100px;
+	padding-left: 100px
+}
+.leftalign{ float: left; 
+	padding-right: 100px;
+	padding-left: 100px
+}
+.twoColumn{
+	column-count: 2;
+	column-gap: 40px;
+	
+}
+.float-right {
+    float: right;
+    margin-left: 10px; /* Optional: adds some space on the left */
+}
